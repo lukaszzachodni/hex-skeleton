@@ -3,4 +3,3 @@ services:
     build:
       context: ./hex-skeleton-domain
       dockerfile: Dockerfile
-    command: [ "./clone_repositories.sh" ]
