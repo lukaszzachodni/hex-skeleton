@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  hex-skeleton-domain:
+    build:
+      context: ./hex-skeleton-domain
+      dockerfile: Dockerfile
+    command: [ "./clone_repositories.sh" ]

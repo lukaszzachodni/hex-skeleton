@@ -1,0 +1,10 @@
+hex-skeleton-domain/
+hex-skeleton-ports/
+hex-skeleton-adapter-database/
+hex-skeleton-adapter-web/
+hex-skeleton-ui/
+
+__pycache__/
+*.pyc
+venv/
+node_modules/
