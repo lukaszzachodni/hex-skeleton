@@ -3,3 +3,25 @@ services:
     build:
       context: ./hex-skeleton-domain
       dockerfile: Dockerfile
+
+  hex-skeleton-ports:
+    build:
+      context: ./hex-skeleton-ports
+      dockerfile: Dockerfile
+
+  hex-skeleton-adapter-database:
+    build:
+      context: ./hex-skeleton-adapter-database
+      dockerfile: Dockerfile
+
+  hex-skeleton-adapter-web:
+    build:
+      context: ./hex-skeleton-adapter-web
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+
+  hex-skeleton-ui:
+    build:
+      context: ./hex-skeleton-ui
+      dockerfile: Dockerfile

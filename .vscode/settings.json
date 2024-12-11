@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./hex-skeleton-domain/src"
+    ]
+}
